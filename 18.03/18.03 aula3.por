@@ -9,7 +9,7 @@ programa
 		inteiro x, filhos
 		real salario, somasalario=0.0, somafilhos=0, mediasalario, mediafilhos, maiorsalario=0.0, salariobaixo=0.0, porcentagem
 
-		para(x=1;x<=20;x++){
+		para(x=1;x<=4;x++){
 			
 			limpa()
 			escreva("\nDigite o valor do salário: ")
@@ -28,9 +28,9 @@ programa
 			}
 		}
 
-		mediasalario = somasalario / 20
-		mediafilhos = somafilhos / 20
-		porcentagem = (salariobaixo*100) / 20
+		mediasalario = somasalario / 4
+		mediafilhos = somafilhos / 4
+		porcentagem = (salariobaixo*100) / 4
 		
 		escreva("\nA média do salário da população é: R$ ", mediasalario)
 		escreva("\nA média do número de filhos é: ", mediafilhos)
@@ -154,7 +154,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1126; 
+ * @POSICAO-CURSOR = 236; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
