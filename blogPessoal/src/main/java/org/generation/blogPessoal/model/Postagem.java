@@ -34,7 +34,7 @@ public class Postagem {
 	@Size(min = 10, max = 500)
 	private String texto;
 	
-	
+
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date date = new java.sql.Date(System.currentTimeMillis());
 	

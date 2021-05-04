@@ -25,9 +25,10 @@ public class PostagemController {
 	@Autowired
 	private PostagemRepository repository;
 	
+		
 	@GetMapping
 	public ResponseEntity<List<Postagem>> GetAll(){
-		return ResponseEntity.ok(repository.findAll());
+		return ResponseEntity.status(HttpStatus.OK).body(repository.findAll());
 	}
 	
 	@GetMapping("/{id}")
