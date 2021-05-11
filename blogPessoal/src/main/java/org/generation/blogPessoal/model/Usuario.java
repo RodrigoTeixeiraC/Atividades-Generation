@@ -23,14 +23,14 @@ public class Usuario {
 	@NotBlank(message = "O campo nome não pode ser vazio!")
 	private String nome;
 
-	@Column(unique = true)
+	
 	@Size(min = 2, max = 100)
 	@NotBlank(message = "O campo E-mail não pode ser vazio!")
 	private String usuario;
 
-	@Column(unique = true)
-	@Size(min = 8, max = 25)
-	@NotBlank(message = "O campo CPF não pode ser vazio!")
+	
+	@Size(min = 2, max = 100)
+	@NotBlank(message = "O campo senha não pode ser vazio!")
 	private String senha;
 
 	public long getId() {
